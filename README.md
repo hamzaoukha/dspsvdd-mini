@@ -50,8 +50,8 @@ The result is a stable training pipeline that achieves strong anomaly detection 
 Upload the notebook [`DSPSVDD_Final.ipynb`](./DSPSVDD_project_Net.ipynb) to [Google Colab](https://colab.research.google.com/).
 
 ## Example Results
-![ROC Curve](results/roc_example.png) # For Class 1 (nc_1)
-![Reconstructions](results/samples_recon_example.png) # For Class 1 (nc_1)
+![ROC Curve](result/roc_example.png) # For Class 1 (nc_1)
+![Reconstructions](result/samples_recon_example.png) # For Class 1 (nc_1)
 
 ## Authors
 - Hamza Oukhacha (Master IAA, Morocco)
