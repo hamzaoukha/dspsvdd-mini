@@ -35,16 +35,29 @@ The result is a stable training pipeline that achieves strong anomaly detection 
   - Aggregated CSV summary across all runs
 
 ---
+## Requirements
+- Python 3.8+
+- PyTorch >= 1.12
+- torchvision
+- scikit-learn
+- matplotlib
+- pandas
 
+---
 ## Getting Started
 
 ### 1. Open in Google Colab
 Upload the notebook [`DSPSVDD_Final.ipynb`](./DSPSVDD_project_Net.ipynb) to [Google Colab](https://colab.research.google.com/).
 
 ## Example Results
-![ROC Curve](results/roc.png) # For Class 1 (nc_1)
-![Reconstructions](results/samples_recon.png) # For Class 1 (nc_1)
+![ROC Curve](results/roc_example.png) # For Class 1 (nc_1)
+![Reconstructions](results/samples_recon_example.png) # For Class 1 (nc_1)
 
+## Authors
+- Hamza Oukhacha (Master IAA, Morocco)
+- Abdelouahed (Master IAA, Morocco)
+
+Contact: [LinkedIn](https://www.linkedin.com/in/hamza-oukhacha/)
 
 ### 2. Mount Google Drive (recommended)
 ```python
