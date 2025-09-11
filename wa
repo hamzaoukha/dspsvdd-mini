@@ -1,0 +1,396 @@
+======================================================================
+Normal class = 1
+100%|██████████| 9.91M/9.91M [00:00<00:00, 37.9MB/s]
+100%|██████████| 28.9k/28.9k [00:00<00:00, 1.07MB/s]
+100%|██████████| 1.65M/1.65M [00:00<00:00, 9.69MB/s]
+100%|██████████| 4.54k/4.54k [00:00<00:00, 11.8MB/s]
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.059054
+[PRE] Epoch 2/15 recon=0.018057
+[PRE] Epoch 3/15 recon=0.008066
+[PRE] Epoch 4/15 recon=0.004848
+[PRE] Epoch 5/15 recon=0.003859
+[PRE] Epoch 6/15 recon=0.003164
+[PRE] Epoch 7/15 recon=0.002824
+[PRE] Epoch 8/15 recon=0.002615
+[PRE] Epoch 9/15 recon=0.002465
+[PRE] Epoch 10/15 recon=0.002290
+[PRE] Epoch 11/15 recon=0.002184
+[PRE] Epoch 12/15 recon=0.002094
+[PRE] Epoch 13/15 recon=0.001998
+[PRE] Epoch 14/15 recon=0.001921
+[PRE] Epoch 15/15 recon=0.001830
+[JOINT] Epoch 1/20 total=6.747508  dist=6.695824  recon=0.030316
+[JOINT] Epoch 2/20 total=0.126753  dist=0.103318  recon=0.028894
+[JOINT] Epoch 3/20 total=0.088914  dist=0.071107  recon=0.028991
+[JOINT] Epoch 4/20 total=0.069058  dist=0.052692  recon=0.028965
+[JOINT] Epoch 5/20 total=0.076686  dist=0.060910  recon=0.028911
+[JOINT] Epoch 6/20 total=0.076341  dist=0.060894  recon=0.028922
+[JOINT] Epoch 7/20 total=0.065803  dist=0.050596  recon=0.028932
+[JOINT] Epoch 8/20 total=0.050574  dist=0.035569  recon=0.028874
+[JOINT] Epoch 9/20 total=0.066627  dist=0.051795  recon=0.028915
+[JOINT] Epoch 10/20 total=0.061334  dist=0.046645  recon=0.028907
+[JOINT] Epoch 11/20 total=0.056770  dist=0.042221  recon=0.028892
+[JOINT] Epoch 12/20 total=0.053085  dist=0.038656  recon=0.028888
+[JOINT] Epoch 13/20 total=0.072059  dist=0.057733  recon=0.028929
+[JOINT] Epoch 14/20 total=0.054891  dist=0.040663  recon=0.028901
+[JOINT] Epoch 15/20 total=0.057124  dist=0.042992  recon=0.028894
+[JOINT] Epoch 16/20 total=0.063018  dist=0.048966  recon=0.028923
+[JOINT] Epoch 17/20 total=0.050844  dist=0.036863  recon=0.028917
+[JOINT] Epoch 18/20 total=0.043549  dist=0.029643  recon=0.028888
+[JOINT] Epoch 19/20 total=0.073990  dist=0.060144  recon=0.028903
+[JOINT] Epoch 20/20 total=0.056863  dist=0.043072  recon=0.028906
+ROC-AUC=0.992 | PR-AUC=0.999 | FPR@95%R=0.042 | MCC=0.897
+
+======================================================================
+Normal class = 2
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.104702
+[PRE] Epoch 2/15 recon=0.037571
+[PRE] Epoch 3/15 recon=0.023177
+[PRE] Epoch 4/15 recon=0.017010
+[PRE] Epoch 5/15 recon=0.013501
+[PRE] Epoch 6/15 recon=0.011764
+[PRE] Epoch 7/15 recon=0.010311
+[PRE] Epoch 8/15 recon=0.009284
+[PRE] Epoch 9/15 recon=0.008648
+[PRE] Epoch 10/15 recon=0.008060
+[PRE] Epoch 11/15 recon=0.007575
+[PRE] Epoch 12/15 recon=0.007333
+[PRE] Epoch 13/15 recon=0.006729
+[PRE] Epoch 14/15 recon=0.006551
+[PRE] Epoch 15/15 recon=0.006193
+[JOINT] Epoch 1/20 total=8.340960  dist=8.277786  recon=0.068537
+[JOINT] Epoch 2/20 total=0.271454  dist=0.237342  recon=0.064968
+[JOINT] Epoch 3/20 total=0.208286  dist=0.183072  recon=0.065009
+[JOINT] Epoch 4/20 total=0.187033  dist=0.164915  recon=0.065077
+[JOINT] Epoch 5/20 total=0.131276  dist=0.110494  recon=0.065095
+[JOINT] Epoch 6/20 total=0.172866  dist=0.152784  recon=0.065086
+[JOINT] Epoch 7/20 total=0.181658  dist=0.162008  recon=0.065107
+[JOINT] Epoch 8/20 total=0.216791  dist=0.197451  recon=0.065072
+[JOINT] Epoch 9/20 total=0.142286  dist=0.123179  recon=0.065064
+[JOINT] Epoch 10/20 total=0.152109  dist=0.133209  recon=0.065073
+[JOINT] Epoch 11/20 total=0.120298  dist=0.101567  recon=0.065171
+[JOINT] Epoch 12/20 total=0.121237  dist=0.102675  recon=0.065044
+[JOINT] Epoch 13/20 total=0.137562  dist=0.119138  recon=0.065083
+[JOINT] Epoch 14/20 total=0.184268  dist=0.165965  recon=0.065088
+[JOINT] Epoch 15/20 total=0.151186  dist=0.132999  recon=0.065047
+[JOINT] Epoch 16/20 total=0.126274  dist=0.108186  recon=0.065088
+[JOINT] Epoch 17/20 total=0.107530  dist=0.089542  recon=0.065031
+[JOINT] Epoch 18/20 total=0.113508  dist=0.095604  recon=0.065020
+[JOINT] Epoch 19/20 total=0.198593  dist=0.180767  recon=0.065018
+[JOINT] Epoch 20/20 total=0.113219  dist=0.095459  recon=0.065059
+ROC-AUC=0.804 | PR-AUC=0.969 | FPR@95%R=0.643 | MCC=0.366
+
+======================================================================
+Normal class = 3
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.095010
+[PRE] Epoch 2/15 recon=0.033860
+[PRE] Epoch 3/15 recon=0.020260
+[PRE] Epoch 4/15 recon=0.014571
+[PRE] Epoch 5/15 recon=0.011644
+[PRE] Epoch 6/15 recon=0.009799
+[PRE] Epoch 7/15 recon=0.008798
+[PRE] Epoch 8/15 recon=0.007871
+[PRE] Epoch 9/15 recon=0.007391
+[PRE] Epoch 10/15 recon=0.006821
+[PRE] Epoch 11/15 recon=0.006644
+[PRE] Epoch 12/15 recon=0.006106
+[PRE] Epoch 13/15 recon=0.005856
+[PRE] Epoch 14/15 recon=0.005600
+[PRE] Epoch 15/15 recon=0.005382
+[JOINT] Epoch 1/20 total=10.557743  dist=10.496448  recon=0.060102
+[JOINT] Epoch 2/20 total=0.311981  dist=0.279894  recon=0.057562
+[JOINT] Epoch 3/20 total=0.214025  dist=0.190111  recon=0.057581
+[JOINT] Epoch 4/20 total=0.174043  dist=0.152710  recon=0.057669
+[JOINT] Epoch 5/20 total=0.151870  dist=0.131612  recon=0.057585
+[JOINT] Epoch 6/20 total=0.172696  dist=0.152980  recon=0.057722
+[JOINT] Epoch 7/20 total=0.176382  dist=0.157021  recon=0.057657
+[JOINT] Epoch 8/20 total=0.153385  dist=0.134297  recon=0.057628
+[JOINT] Epoch 9/20 total=0.180916  dist=0.162041  recon=0.057682
+[JOINT] Epoch 10/20 total=0.161401  dist=0.142709  recon=0.057628
+[JOINT] Epoch 11/20 total=0.147247  dist=0.128715  recon=0.057638
+[JOINT] Epoch 12/20 total=0.154835  dist=0.136454  recon=0.057593
+[JOINT] Epoch 13/20 total=0.142293  dist=0.124034  recon=0.057617
+[JOINT] Epoch 14/20 total=0.151660  dist=0.133513  recon=0.057597
+[JOINT] Epoch 15/20 total=0.160346  dist=0.142303  recon=0.057632
+[JOINT] Epoch 16/20 total=0.092651  dist=0.074707  recon=0.057593
+[JOINT] Epoch 17/20 total=0.132736  dist=0.114877  recon=0.057622
+[JOINT] Epoch 18/20 total=0.156566  dist=0.138785  recon=0.057608
+[JOINT] Epoch 19/20 total=0.100458  dist=0.082752  recon=0.057597
+[JOINT] Epoch 20/20 total=0.131992  dist=0.114353  recon=0.057592
+ROC-AUC=0.898 | PR-AUC=0.985 | FPR@95%R=0.327 | MCC=0.615
+
+======================================================================
+Normal class = 4
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.100072
+[PRE] Epoch 2/15 recon=0.034172
+[PRE] Epoch 3/15 recon=0.019720
+[PRE] Epoch 4/15 recon=0.014024
+[PRE] Epoch 5/15 recon=0.011168
+[PRE] Epoch 6/15 recon=0.009417
+[PRE] Epoch 7/15 recon=0.008268
+[PRE] Epoch 8/15 recon=0.007444
+[PRE] Epoch 9/15 recon=0.007004
+[PRE] Epoch 10/15 recon=0.006542
+[PRE] Epoch 11/15 recon=0.005874
+[PRE] Epoch 12/15 recon=0.005684
+[PRE] Epoch 13/15 recon=0.005354
+[PRE] Epoch 14/15 recon=0.005198
+[PRE] Epoch 15/15 recon=0.005046
+[JOINT] Epoch 1/20 total=10.181366  dist=10.120000  recon=0.052241
+[JOINT] Epoch 2/20 total=0.241400  dist=0.209460  recon=0.052303
+[JOINT] Epoch 3/20 total=0.196443  dist=0.173027  recon=0.052396
+[JOINT] Epoch 4/20 total=0.153743  dist=0.133111  recon=0.052486
+[JOINT] Epoch 5/20 total=0.140995  dist=0.121546  recon=0.052409
+[JOINT] Epoch 6/20 total=0.144978  dist=0.126142  recon=0.052432
+[JOINT] Epoch 7/20 total=0.103005  dist=0.084562  recon=0.052424
+[JOINT] Epoch 8/20 total=0.148930  dist=0.130775  recon=0.052395
+[JOINT] Epoch 9/20 total=0.122490  dist=0.104558  recon=0.052407
+[JOINT] Epoch 10/20 total=0.103239  dist=0.085495  recon=0.052404
+[JOINT] Epoch 11/20 total=0.178514  dist=0.160934  recon=0.052399
+[JOINT] Epoch 12/20 total=0.119335  dist=0.101898  recon=0.052418
+[JOINT] Epoch 13/20 total=0.157483  dist=0.140171  recon=0.052439
+[JOINT] Epoch 14/20 total=0.167850  dist=0.150662  recon=0.052375
+[JOINT] Epoch 15/20 total=0.151252  dist=0.134175  recon=0.052396
+[JOINT] Epoch 16/20 total=0.135921  dist=0.118947  recon=0.052374
+[JOINT] Epoch 17/20 total=0.167971  dist=0.151087  recon=0.052393
+[JOINT] Epoch 18/20 total=0.111799  dist=0.095000  recon=0.052375
+[JOINT] Epoch 19/20 total=0.098952  dist=0.082225  recon=0.052400
+[JOINT] Epoch 20/20 total=0.074476  dist=0.057818  recon=0.052386
+ROC-AUC=0.889 | PR-AUC=0.985 | FPR@95%R=0.466 | MCC=0.503
+
+======================================================================
+Normal class = 5
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.068542
+[PRE] Epoch 2/15 recon=0.032678
+[PRE] Epoch 3/15 recon=0.019280
+[PRE] Epoch 4/15 recon=0.014405
+[PRE] Epoch 5/15 recon=0.012080
+[PRE] Epoch 6/15 recon=0.010646
+[PRE] Epoch 7/15 recon=0.009297
+[PRE] Epoch 8/15 recon=0.008563
+[PRE] Epoch 9/15 recon=0.008234
+[PRE] Epoch 10/15 recon=0.007554
+[PRE] Epoch 11/15 recon=0.007179
+[PRE] Epoch 12/15 recon=0.006865
+[PRE] Epoch 13/15 recon=0.006593
+[PRE] Epoch 14/15 recon=0.006416
+[PRE] Epoch 15/15 recon=0.006122
+[JOINT] Epoch 1/20 total=7.448888  dist=7.386298  recon=0.065554
+[JOINT] Epoch 2/20 total=0.212885  dist=0.179385  recon=0.061013
+[JOINT] Epoch 3/20 total=0.148876  dist=0.124597  recon=0.061050
+[JOINT] Epoch 4/20 total=0.120353  dist=0.099224  recon=0.060996
+[JOINT] Epoch 5/20 total=0.139391  dist=0.119573  recon=0.061042
+[JOINT] Epoch 6/20 total=0.104785  dist=0.085650  recon=0.061024
+[JOINT] Epoch 7/20 total=0.141793  dist=0.123075  recon=0.061088
+[JOINT] Epoch 8/20 total=0.124388  dist=0.105980  recon=0.061066
+[JOINT] Epoch 9/20 total=0.079322  dist=0.061153  recon=0.061048
+[JOINT] Epoch 10/20 total=0.093027  dist=0.075067  recon=0.060986
+[JOINT] Epoch 11/20 total=0.064859  dist=0.047081  recon=0.060931
+[JOINT] Epoch 12/20 total=0.072380  dist=0.054740  recon=0.061022
+[JOINT] Epoch 13/20 total=0.072792  dist=0.055292  recon=0.060942
+[JOINT] Epoch 14/20 total=0.075235  dist=0.057851  recon=0.061003
+[JOINT] Epoch 15/20 total=0.081470  dist=0.064194  recon=0.060985
+[JOINT] Epoch 16/20 total=0.097840  dist=0.080668  recon=0.060942
+[JOINT] Epoch 17/20 total=0.087587  dist=0.070508  recon=0.060961
+[JOINT] Epoch 18/20 total=0.079278  dist=0.062282  recon=0.060966
+[JOINT] Epoch 19/20 total=0.073327  dist=0.056403  recon=0.060979
+[JOINT] Epoch 20/20 total=0.081108  dist=0.064249  recon=0.061007
+ROC-AUC=0.849 | PR-AUC=0.981 | FPR@95%R=0.578 | MCC=0.385
+
+======================================================================
+Normal class = 6
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.078282
+[PRE] Epoch 2/15 recon=0.030489
+[PRE] Epoch 3/15 recon=0.017544
+[PRE] Epoch 4/15 recon=0.013072
+[PRE] Epoch 5/15 recon=0.010563
+[PRE] Epoch 6/15 recon=0.008860
+[PRE] Epoch 7/15 recon=0.007890
+[PRE] Epoch 8/15 recon=0.007167
+[PRE] Epoch 9/15 recon=0.006738
+[PRE] Epoch 10/15 recon=0.006430
+[PRE] Epoch 11/15 recon=0.006021
+[PRE] Epoch 12/15 recon=0.005809
+[PRE] Epoch 13/15 recon=0.005465
+[PRE] Epoch 14/15 recon=0.005303
+[PRE] Epoch 15/15 recon=0.005231
+[JOINT] Epoch 1/20 total=7.915082  dist=7.854986  recon=0.055682
+[JOINT] Epoch 2/20 total=0.197014  dist=0.165970  recon=0.054988
+[JOINT] Epoch 3/20 total=0.136067  dist=0.113005  recon=0.055319
+[JOINT] Epoch 4/20 total=0.094181  dist=0.073633  recon=0.055371
+[JOINT] Epoch 5/20 total=0.085246  dist=0.065758  recon=0.055292
+[JOINT] Epoch 6/20 total=0.076125  dist=0.057216  recon=0.055288
+[JOINT] Epoch 7/20 total=0.092078  dist=0.073548  recon=0.055246
+[JOINT] Epoch 8/20 total=0.112990  dist=0.094731  recon=0.055336
+[JOINT] Epoch 9/20 total=0.115773  dist=0.097752  recon=0.055256
+[JOINT] Epoch 10/20 total=0.090845  dist=0.073029  recon=0.055242
+[JOINT] Epoch 11/20 total=0.075550  dist=0.057904  recon=0.055244
+[JOINT] Epoch 12/20 total=0.094689  dist=0.077180  recon=0.055323
+[JOINT] Epoch 13/20 total=0.105430  dist=0.088036  recon=0.055293
+[JOINT] Epoch 14/20 total=0.051474  dist=0.034205  recon=0.055234
+[JOINT] Epoch 15/20 total=0.051041  dist=0.033887  recon=0.055232
+[JOINT] Epoch 16/20 total=0.077961  dist=0.060905  recon=0.055254
+[JOINT] Epoch 17/20 total=0.082523  dist=0.065555  recon=0.055249
+[JOINT] Epoch 18/20 total=0.076474  dist=0.059588  recon=0.055287
+[JOINT] Epoch 19/20 total=0.080702  dist=0.063896  recon=0.055243
+[JOINT] Epoch 20/20 total=0.082326  dist=0.065597  recon=0.055221
+ROC-AUC=0.925 | PR-AUC=0.988 | FPR@95%R=0.217 | MCC=0.744
+
+======================================================================
+Normal class = 7
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.081357
+[PRE] Epoch 2/15 recon=0.026239
+[PRE] Epoch 3/15 recon=0.015008
+[PRE] Epoch 4/15 recon=0.010701
+[PRE] Epoch 5/15 recon=0.008757
+[PRE] Epoch 6/15 recon=0.007439
+[PRE] Epoch 7/15 recon=0.006574
+[PRE] Epoch 8/15 recon=0.005955
+[PRE] Epoch 9/15 recon=0.005389
+[PRE] Epoch 10/15 recon=0.004992
+[PRE] Epoch 11/15 recon=0.004906
+[PRE] Epoch 12/15 recon=0.004438
+[PRE] Epoch 13/15 recon=0.004237
+[PRE] Epoch 14/15 recon=0.004149
+[PRE] Epoch 15/15 recon=0.004002
+[JOINT] Epoch 1/20 total=10.805270  dist=10.746370  recon=0.049711
+[JOINT] Epoch 2/20 total=0.287524  dist=0.257988  recon=0.047993
+[JOINT] Epoch 3/20 total=0.186500  dist=0.164375  recon=0.048203
+[JOINT] Epoch 4/20 total=0.185566  dist=0.165627  recon=0.048089
+[JOINT] Epoch 5/20 total=0.153431  dist=0.134358  recon=0.048087
+[JOINT] Epoch 6/20 total=0.138842  dist=0.120221  recon=0.048136
+[JOINT] Epoch 7/20 total=0.136306  dist=0.117993  recon=0.048105
+[JOINT] Epoch 8/20 total=0.192320  dist=0.174244  recon=0.048059
+[JOINT] Epoch 9/20 total=0.145210  dist=0.127317  recon=0.048113
+[JOINT] Epoch 10/20 total=0.117842  dist=0.100125  recon=0.048037
+[JOINT] Epoch 11/20 total=0.107524  dist=0.089955  recon=0.048058
+[JOINT] Epoch 12/20 total=0.114527  dist=0.097085  recon=0.048085
+[JOINT] Epoch 13/20 total=0.180786  dist=0.163460  recon=0.048070
+[JOINT] Epoch 14/20 total=0.145652  dist=0.128427  recon=0.048089
+[JOINT] Epoch 15/20 total=0.129704  dist=0.112579  recon=0.048077
+[JOINT] Epoch 16/20 total=0.112349  dist=0.095278  recon=0.048042
+[JOINT] Epoch 17/20 total=0.159161  dist=0.142179  recon=0.048026
+[JOINT] Epoch 18/20 total=0.153606  dist=0.136697  recon=0.048094
+[JOINT] Epoch 19/20 total=0.101899  dist=0.085063  recon=0.048075
+[JOINT] Epoch 20/20 total=0.081731  dist=0.064964  recon=0.048061
+ROC-AUC=0.927 | PR-AUC=0.990 | FPR@95%R=0.301 | MCC=0.642
+
+======================================================================
+Normal class = 8
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.106580
+[PRE] Epoch 2/15 recon=0.043786
+[PRE] Epoch 3/15 recon=0.028583
+[PRE] Epoch 4/15 recon=0.019984
+[PRE] Epoch 5/15 recon=0.015461
+[PRE] Epoch 6/15 recon=0.012946
+[PRE] Epoch 7/15 recon=0.011484
+[PRE] Epoch 8/15 recon=0.010210
+[PRE] Epoch 9/15 recon=0.009565
+[PRE] Epoch 10/15 recon=0.008798
+[PRE] Epoch 11/15 recon=0.008216
+[PRE] Epoch 12/15 recon=0.007946
+[PRE] Epoch 13/15 recon=0.007572
+[PRE] Epoch 14/15 recon=0.007379
+[PRE] Epoch 15/15 recon=0.007190
+[JOINT] Epoch 1/20 total=10.356097  dist=10.292824  recon=0.060177
+[JOINT] Epoch 2/20 total=0.357697  dist=0.324260  recon=0.058296
+[JOINT] Epoch 3/20 total=0.234755  dist=0.210065  recon=0.058406
+[JOINT] Epoch 4/20 total=0.225877  dist=0.204015  recon=0.058482
+[JOINT] Epoch 5/20 total=0.173594  dist=0.152883  recon=0.058475
+[JOINT] Epoch 6/20 total=0.149466  dist=0.129358  recon=0.058418
+[JOINT] Epoch 7/20 total=0.207164  dist=0.187418  recon=0.058480
+[JOINT] Epoch 8/20 total=0.160452  dist=0.140976  recon=0.058475
+[JOINT] Epoch 9/20 total=0.201799  dist=0.182534  recon=0.058442
+[JOINT] Epoch 10/20 total=0.153994  dist=0.134912  recon=0.058462
+[JOINT] Epoch 11/20 total=0.171433  dist=0.152502  recon=0.058460
+[JOINT] Epoch 12/20 total=0.154670  dist=0.135877  recon=0.058449
+[JOINT] Epoch 13/20 total=0.140729  dist=0.122067  recon=0.058407
+[JOINT] Epoch 14/20 total=0.112986  dist=0.094438  recon=0.058411
+[JOINT] Epoch 15/20 total=0.100738  dist=0.082284  recon=0.058467
+[JOINT] Epoch 16/20 total=0.147176  dist=0.128819  recon=0.058414
+[JOINT] Epoch 17/20 total=0.112920  dist=0.094649  recon=0.058422
+[JOINT] Epoch 18/20 total=0.133883  dist=0.115691  recon=0.058409
+[JOINT] Epoch 19/20 total=0.121322  dist=0.103203  recon=0.058424
+[JOINT] Epoch 20/20 total=0.154372  dist=0.136314  recon=0.058418
+ROC-AUC=0.834 | PR-AUC=0.974 | FPR@95%R=0.466 | MCC=0.565
+
+======================================================================
+Normal class = 9
+/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[PRE] Epoch 1/15 recon=0.115446
+[PRE] Epoch 2/15 recon=0.033345
+[PRE] Epoch 3/15 recon=0.020572
+[PRE] Epoch 4/15 recon=0.013980
+[PRE] Epoch 5/15 recon=0.010435
+[PRE] Epoch 6/15 recon=0.008640
+[PRE] Epoch 7/15 recon=0.007555
+[PRE] Epoch 8/15 recon=0.006936
+[PRE] Epoch 9/15 recon=0.006391
+[PRE] Epoch 10/15 recon=0.005988
+[PRE] Epoch 11/15 recon=0.005646
+[PRE] Epoch 12/15 recon=0.005139
+[PRE] Epoch 13/15 recon=0.005018
+[PRE] Epoch 14/15 recon=0.004750
+[PRE] Epoch 15/15 recon=0.004552
+[JOINT] Epoch 1/20 total=10.081098  dist=10.020547  recon=0.052242
+[JOINT] Epoch 2/20 total=0.313699  dist=0.282461  recon=0.049357
+[JOINT] Epoch 3/20 total=0.244169  dist=0.220910  recon=0.049493
+[JOINT] Epoch 4/20 total=0.153424  dist=0.132678  recon=0.049516
+[JOINT] Epoch 5/20 total=0.162375  dist=0.142660  recon=0.049521
+[JOINT] Epoch 6/20 total=0.131332  dist=0.112163  recon=0.049509
+[JOINT] Epoch 7/20 total=0.240137  dist=0.221322  recon=0.049515
+[JOINT] Epoch 8/20 total=0.219641  dist=0.201080  recon=0.049555
+[JOINT] Epoch 9/20 total=0.183730  dist=0.165386  recon=0.049504
+[JOINT] Epoch 10/20 total=0.122986  dist=0.104835  recon=0.049461
+[JOINT] Epoch 11/20 total=0.131074  dist=0.113084  recon=0.049478
+[JOINT] Epoch 12/20 total=0.139725  dist=0.121871  recon=0.049501
+[JOINT] Epoch 13/20 total=0.140864  dist=0.123144  recon=0.049461
+[JOINT] Epoch 14/20 total=0.128664  dist=0.111056  recon=0.049487
+[JOINT] Epoch 15/20 total=0.144607  dist=0.127103  recon=0.049474
+[JOINT] Epoch 16/20 total=0.196645  dist=0.179240  recon=0.049472
+[JOINT] Epoch 17/20 total=0.164249  dist=0.146928  recon=0.049469
+[JOINT] Epoch 18/20 total=0.151120  dist=0.133873  recon=0.049496
+[JOINT] Epoch 19/20 total=0.133489  dist=0.116320  recon=0.049460
+[JOINT] Epoch 20/20 total=0.149471  dist=0.132366  recon=0.049483
+ROC-AUC=0.903 | PR-AUC=0.986 | FPR@95%R=0.415 | MCC=0.537
+
+Saved metrics: /content/mnist_dspsvdd_metrics.csv
+
+LaTeX table (copy into your report):
+
+\begin{table}[H]\centering
+\caption{MNIST one-class metrics by normal class (DSPSVDD).}
+\label{tab:mnist_full_metrics}
+\begin{tabular}{lcccc}
+\toprule
+Class & ROC-AUC & PR-AUC & FPR@95\%R & MCC \\
+\midrule
+1 & 0.992 & 0.999 & 0.042 & 0.897 \\
+2 & 0.804 & 0.969 & 0.643 & 0.366 \\
+3 & 0.898 & 0.985 & 0.327 & 0.615 \\
+4 & 0.889 & 0.985 & 0.466 & 0.503 \\
+5 & 0.849 & 0.981 & 0.578 & 0.385 \\
+6 & 0.925 & 0.988 & 0.217 & 0.744 \\
+7 & 0.927 & 0.990 & 0.301 & 0.642 \\
+8 & 0.834 & 0.974 & 0.466 & 0.565 \\
+9 & 0.903 & 0.986 & 0.415 & 0.537 \\
+\bottomrule
+\end{tabular}
+\end{table}
