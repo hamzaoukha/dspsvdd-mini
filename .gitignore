@@ -1,15 +1,15 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 .env
 .ipynb_checkpoints/
 
-# Data / outputs
-data/processed/
-outputs/
-models/
-artifacts/
+# Artifacts
+runs/
+checkpoints/
+*.pt
+*.pth
 
-# System
-.DS_Store
+# Data
+data/
