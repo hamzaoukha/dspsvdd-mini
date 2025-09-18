@@ -1,0 +1,29 @@
+exp_name: "mnist_n0_cnn"
+seed: 42
+
+dataset:
+  name: mnist         # mnist | fmnist
+  data_root: "./data"
+  download: true
+
+task:
+  normal_class: 0     # digits 0..9 will be normal; others are anomalies
+  batch_size: 128
+  num_workers: 2
+
+model:
+  backbone: cnn       # cnn | mlp
+  z_dim: 128
+
+train:
+  epochs: 20
+  lr: 1e-3
+  weight_decay: 1e-4
+  lambda_sp: 0.1      # weight for structure-preserving (Laplacian) loss
+  sigma: 1.0          # RBF width for affinity in feature space
+  center_eps: 1e-6    # for numerical stability when initializing c
+  device: "cuda"      # "cuda" | "cpu"
+  save_dir: "runs"
+
+eval:
+  save_plots: true
